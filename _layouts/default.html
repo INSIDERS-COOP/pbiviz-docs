@@ -19,7 +19,7 @@
         <header class="inner">
           <h1 id="project_title">
             <img src="https://www.insiders.coop/img/logo.ae2890e6.png" alt="INSIDERS.COOP" style="background: white; width: 25%; vertical-align: top;">
-            {{ site.title | default: site.github.repository_name }}</h1>
+            {{ site.shortTitle | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
