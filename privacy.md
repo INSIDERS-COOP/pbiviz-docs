@@ -4,3 +4,4 @@ INSIDERS.COOP Power BI visuals do not collect or use any of your personal inform
 
 ## List of our visuals
 - Preselected Slicer
+- Mass Filter
