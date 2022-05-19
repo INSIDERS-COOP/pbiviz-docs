@@ -1,7 +1,10 @@
 # Data Refresher configuration
 Put a __dummy*__ dimension in the _Whatever_ bucket field.
+
 Set the desired refresh rate in the _Format_ option tab.
+
 You can change the text size and the template of the label if needed.
+
 Adjust position and size of the visual on the report canvas.
 
 # Usage
