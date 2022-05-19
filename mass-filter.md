@@ -11,3 +11,4 @@ You can switch to exclude mode by clicking on the filter mode button.
 
 *Keywords must be separated by commas or line breaks.<br />
 If your data contain commas or leading/trailing spaces, you can put a keyword between "double quotes".
+{: class="footnotes"}
