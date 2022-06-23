@@ -8,5 +8,5 @@ INSIDERS.COOP Power BI visuals do not collect or use any of your personal inform
 ## List of our visuals
 {% assign pages = site.pages | where_exp: "page", "page.customviz-doc == true" %}
 {% for currentPage in pages %}
-- [{{ currentPage.title }}]({{ currentPage.url }})
+- [{{ currentPage.title }}]({{ currentPage.url | relative_url }})
 {%- endfor %}
