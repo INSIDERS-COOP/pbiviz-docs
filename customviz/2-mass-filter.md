@@ -1,7 +1,6 @@
 ---
 permalink: /mass-filter
 title: Mass Filter
-customviz-doc: true
 ---
 # Mass Filter configuration
 Put the dimension you want to filter on in the Fields bucket.<br />

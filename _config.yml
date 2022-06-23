@@ -1,3 +1,9 @@
 theme: jekyll-theme-slate
 title: INSIDERS.COOP Power BI Custom Visuals
 shortTitle: Power BI Custom Visuals
+defaults:
+- scope:
+    path: customviz
+  values:
+    layout: default
+    customviz-doc: true

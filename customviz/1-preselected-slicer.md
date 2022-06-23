@@ -1,7 +1,6 @@
 ---
 permalink: /preselected-slicer
 title: Preselected Slicer
-customviz-doc: true
 ---
 # Preseletected Slicer configuration
 
