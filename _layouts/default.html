@@ -28,7 +28,7 @@
             {% for pageGroup in pageGroups %}
             <ul>
               {% for currentPage in pageGroup.items %}
-              <li><a {% if page.url == currentPage.url | relative_url %}class="selected"{% endif %}href="{{ currentPage.url }}">{{ currentPage.title }}</a></li>
+              <li><a {% if page.url == currentPage.url %}class="selected"{% endif %}href="{{ currentPage.url | relative_url }}">{{ currentPage.title }}</a></li>
               {% endfor %}
             </ul>
             {% endfor %}
