@@ -23,12 +23,15 @@
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           <nav role="navigation">
+            {% assign pages = site.pages | where_exp: "page", "page.dir != '/assets/css/'" %}
+            {% assign pageGroups = pages | group_by:"customviz-doc" %}
+            {% for pageGroup in pageGroups %}
             <ul>
-              <li><a href="/pbiviz-docs/preselected-slicer">Preselected Slicer</a></li>
-              <li><a href="/pbiviz-docs/mass-filter">Mass Filter</a></li>
-              <li><a href="/pbiviz-docs/data-refresher">Data Refresher</a></li>
+              {% for currentPage in pageGroup.items %}
+              <li><a {% if page.url == currentPage.url %}class="selected"{% endif %}href="{{ currentPage.url }}">{{ currentPage.title }}</a></li>
+              {% endfor %}
             </ul>
-            <a href="/pbiviz-docs/privacy">Privacy Terms</a>
+            {% endfor %}
           </nav>
         </header>
     </div>

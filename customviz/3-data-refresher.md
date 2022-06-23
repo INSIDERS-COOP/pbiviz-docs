@@ -1,3 +1,8 @@
+---
+permalink: /data-refresher
+title: Data Refresher
+customviz-doc: true
+---
 # Data Refresher configuration
 Put a __dummy*__ dimension in the _Whatever_ bucket field.<br />
 Set the desired refresh rate in the _Format_ option tab.<br />

@@ -39,18 +39,18 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 60%;
-}
-
-nav > a {
-  margin-left: auto;
 }
 
 nav a {
   color: white;
   font-weight: bold;
+}
+
+nav a.selected {
+  text-decoration: underline;
 }
