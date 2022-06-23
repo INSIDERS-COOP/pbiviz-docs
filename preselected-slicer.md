@@ -1,3 +1,8 @@
+---
+permalink: /preselected-slicer
+title: Preselected Slicer
+customviz-doc: true
+---
 # Preseletected Slicer configuration
 
 1. Put the dimension you want to slice on in the `Fields` bucket.
