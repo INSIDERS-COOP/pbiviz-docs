@@ -2,7 +2,7 @@
 permalink: /mass-filter
 title: Mass Filter
 ---
-# MAss Filter
+# Mass Filter
 
 ## Introduction
 **Filter your Power BI reports instantly with a list of keywords and a copy/paste.**
