@@ -2,6 +2,11 @@
 permalink: /data-refresher
 title: Data Refresher
 ---
+# Introduction
+**Visual that repeatedly refreshes data, with a fixed time delay between each refresh.**
+
+Use the Data Refresher visual on your reports to repeatedly update the data and the other visuals. It is particularly useful when you display your dashboard on a TV screen without input devices and you want to see the latest fresh data.
+
 # Data Refresher configuration
 Put a __dummy*__ dimension in the _Whatever_ bucket field.<br />
 Set the desired refresh rate in the _Format_ option tab.<br />
