@@ -13,7 +13,6 @@ You can change a few settings in the Format option tab.<br />
 Adjust position and size of the visual on the report canvas.
 
 ## Usage
-
 Write or paste __keywords__ related to your dimension in the text area.<br />
 Click the filter button to filter the report on the matching elements.<br />
 You can switch to exclude mode by clicking on the filter mode button.
@@ -21,3 +20,11 @@ You can switch to exclude mode by clicking on the filter mode button.
 Keywords must be separated by commas or line breaks.<br />
 If your data contain commas or leading/trailing spaces, you can put a keyword between "double quotes".
 {: class="note"}
+
+## FAQ
+
+### Is there a limit to the number of keywords pasted in the search box?
+No. We didn't setup any limit.
+You can potentially paste as much terms as you want, as far as there are no technical limit with an HTML textbox element.
+
+However, if there are duplicates in your list, they will be automatically removed after setting the filters.
