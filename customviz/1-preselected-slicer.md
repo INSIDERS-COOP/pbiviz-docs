@@ -21,6 +21,7 @@ The Preselected Slicer needs a third "technical" measure in order to keep its di
 <u>This column must be unique for this Slicer instance!</u>
 
 In order to make the `Dirty` status work across pages, each _Preselected Slicer_ instance needs its own "technical" column with two values `TRUE` and `FALSE`. We recommend to use only one "technical" table with one column per visual instance. Therefore, all boolean combinations need to appear in the dataset, as in the `_PreselectedSLicer` sample table.
+{: class="note"}
 ```
 | IsSlicer1Dirty | IsSlicer2Dirty | IsSlicer3Dirty |
 |----------------|----------------|----------------|
@@ -33,7 +34,6 @@ In order to make the `Dirty` status work across pages, each _Preselected Slicer_
 | TRUE           | TRUE           | FALSE          |
 | TRUE           | TRUE           | TRUE           |
 ```
-{: class="note"}
 
 ## Known issue
 There is a known, and still unresolved, issue with the slicer's dropdown list which doesn't flow over other visuals.
