@@ -30,13 +30,13 @@ Be aware however that using a high number of filter terms may affect the perform
 
 When set to a number grater thant `0`, the limit is active and a user won't be able to filter the report with more terms than the number set in the format pane.
 
-Setting a limit, unhide a another new setting to enable or diable the status bar.<br />
-When enabled, a status bar will show above or below the filter box in the visual with the current amount of terms in it, as well as the maximum number of terms available.
+Setting a limit unhides another new setting to enable or diable the status bar.<br />
+When enabled, a status bar will show above or below the filter box in the visual displaying the current amount of terms in it, as well as the maximum number of terms available.
 
 A new formatting panel will also appear to modify the appearance of the status bar.
 
 As formatting settings, all of these won't be synchronized between pages.<br />
-Pay attention when you change the configuration after activating synchronization.
+Pay attention when you change the configuration on synchronized filters.
 {: class="note"}
 
 ### Cross Page Synchronization
@@ -50,7 +50,7 @@ Once synchronized and configured, each visual on each page will behave as a stan
 If you modify any setting from the format pane, you will need to manually replicate the change on every page the visual is synchronized on.
 
 You will encounter incoherent behavior when synchronized _Mass Filter_ visuals don't share the same maximum term limit.<br />
-If a user uses the maximum number of terms available in the visual configure with the higher limit, the visuals with lower limits on other pages will be in error state, and therefore unusable.
+If a user uses the maximum number of terms available in the visual configured with the higher limit, the visuals with lower limits on other pages will be in error state, and therefore unusable.
 {: class="note"}
 
 ## Usage
