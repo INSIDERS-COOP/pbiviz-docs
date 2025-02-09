@@ -19,9 +19,38 @@ The user can switch between inclusive (`In`) or exclusive (`NotIn`) filter by cl
 - Adjust formatting settings as desired.
 - Adjust position and size of the visual on the report canvas.
 
-The limit setting defaults to `0`, which disables the limit feature.<br />
-By default there's no limit to the number of terms a user can use to filter a report.<br />
+### Max Term Limit
+There is a new _Limit_ setting in the format pane, which allows to set a maximum number of terms a user can paste in the filter box.
+
+The limit setting defaults to `0`, which disables the whole feature.<br />
+By default there's no maximum number of terms a user can use to filter a report.
+
 Be aware however that using a high number of filter terms may affect the performances of the report and even impact your global capacity.
+{: class="note"}
+
+When set to a number grater thant `0`, the limit is active and a user won't be able to paste filter the report with more terms than the number set in the format pane.
+
+Setting a limit, unhide a another new setting to enable or diable the status bar.<br />
+When enabled, a status bar will show above or below the filter box in the visual with the current amount of terms in it, as well as the maximum number of terms available.
+
+A new formatting panel will also appear to modify the appearance of the status bar.
+
+As formatting settings, all of these won't be synchronized between pages.<br />
+Pay attention when you change the configuration after activating synchronization.
+{: class="note"}
+
+### Cross Page Synchronization
+The _Mass Filter_ can now be synchronized between pages like any other slicer.
+
+Just open the synchronization panel and select the pages on which you want the filter to appear and be synchronized.
+
+As formatting settings aren't synchronized between pages, we suggest to configure your filter on the first page on which you want it to appear, then synchronize it with the synchronization panel and let Power BI duplicate it on selected pages.
+
+Once synchronized and configured, each visual on each page will behave as a standalone visual, unless for the filters which will synchronize.<br />
+If you modify any setting from the format pane, you will need to manually replicate the change on every page the visual is synchronized on.
+
+You will encounter incoherent behavior when synchronized _Mass Filter_ visuals don't share the same maximum term limit.<br />
+If a user uses the maximum number of terms available in the visual configure with the higher limit, the visuals with lower limits on other pages will be in error state, and therefore unusable.
 {: class="note"}
 
 ## Usage
