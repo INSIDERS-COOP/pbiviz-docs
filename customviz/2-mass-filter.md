@@ -28,7 +28,7 @@ By default there's no maximum number of terms a user can use to filter a report.
 Be aware however that using a high number of filter terms may affect the performances of the report and even impact your global capacity.
 {: class="note"}
 
-When set to a number grater thant `0`, the limit is active and a user won't be able to paste filter the report with more terms than the number set in the format pane.
+When set to a number grater thant `0`, the limit is active and a user won't be able to filter the report with more terms than the number set in the format pane.
 
 Setting a limit, unhide a another new setting to enable or diable the status bar.<br />
 When enabled, a status bar will show above or below the filter box in the visual with the current amount of terms in it, as well as the maximum number of terms available.
