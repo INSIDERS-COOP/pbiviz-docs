@@ -5,7 +5,7 @@ title: Mass Filter
 # Mass Filter
 **Filter your Power BI reports instantly with a list of keywords and a copy/paste.**
 
-Use the Mass Filter visual in your Power BI reports to filter other visuals with one of your dimensions and a set of keywords given by the user.
+Use the Mass Filter visual in your Power BI reports to let users filter other visuals on one of your columns/measures with a list of keywords.
 
 The advantage of the Mass Filter is that your users can copy a list of keywords from any external source (Excel, CSV, plain text file...), and paste it in the input box. When they click on the filter buttons, all values are used at once to filter the report instantly.
 
