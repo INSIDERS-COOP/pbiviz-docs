@@ -5,6 +5,9 @@
 
 body {
   background: #093f3c;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,6 +27,10 @@ p.note {
   background: -ms-linear-gradient(top, #1f5552, #093f3c);
   background: -o-linear-gradient(top, #1f5552, #093f3c);
   background: linear-gradient(to top, #1f5552, #093f3c);
+}
+
+#main_content_wrap {
+  flex-grow: 1;
 }
 
 #footer_wrap {
