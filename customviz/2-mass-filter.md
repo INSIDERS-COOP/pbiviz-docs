@@ -62,6 +62,17 @@ Keywords must be separated by commas or line breaks. Space will not be considere
 If your data contain commas or leading/trailing spaces or even line breaks (!!), you can use double quotes (") around an expression to escape these characters.
 {: class="note"}
 
+## Migration 2.2.7.1 => 3.0.0.1
+The version 3 of the Mass Filter custom visual is a breaking change.
+
+The capabilities of the visual have changed and, for better naming consistency, the name of the bucket field has been modified.
+
+It results in the need to **reconfigure** the visual by **removing and dropping again the column/measure used in the bucket field**.
+
+Unfortunately, if you used the Mass Filter visual in one of your reports, it will automatically update from the App Source as soon as it will be available to you.
+
+The Power BI platform doesn't leave the choice of which version you'd like to use. Moreover, the version on the App Source prevails on an eventual version you might have in your organization, which also prevails on an eventual local file you'd like to use.
+
 ## FAQ
 
 ### Is there a limit to the number of keywords pasted in the search box?
@@ -73,3 +84,13 @@ To prevent unexpected behaviors, we recommend to use the limit setting in the fo
 
 Note that duplicate terms in the list may be automatically removed after filter buttons are clicked.
 {: class="note"}
+
+## Changelog
+### 3.0.0.1
+**Features**
+- Added limit setting and related formatting options.
+- Added cross-page synchronization.
+- Changed UI/UX for better consistency and intuitiveness.
+
+**Bug fix**
+- Separator chars (`,` and `LF`) escaping with double quotes (`"`) now fully functionnal.
