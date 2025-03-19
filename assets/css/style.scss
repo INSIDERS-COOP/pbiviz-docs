@@ -14,10 +14,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #0dafb9;
 }
 
-p.note {
+.note {
   background: rgba(13, 175, 185, .2);
   border-left: 5px solid #093f3c;
   padding-left: 5px;
+}
+
+.warning {
+  background: #fcf8e3;
+  border-left: 5px solid #f0ad4e;
+  padding-left: 5px;
+}
+
+.warning h3, .warning a {
+  color: #f0ad4e;
 }
 
 #header_wrap {
