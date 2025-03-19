@@ -1,0 +1,65 @@
+<div class="warning">
+<h3>Important notice</h3>
+{% if page.url == "/mass-filter" %}
+<p>
+  On the 10th of March 2025, the version 3.0.0.1 of the <em>Mass Filter</em> has
+  been published on the App Source after being certified by Microsoft.
+  This version is a major update from previous version 2.2.7.1, introducing a
+  small breaking change with the modification of the field bucket's technical
+  name.
+</p>
+
+<p>
+  This modification results in a report being unable to properly configure the
+  visual. The column/measure being missing, the visual ends up in an inconsistent
+  state, asking to be configured. For authors, there's no problem here, but for
+  viewers, the visual is buggy.
+</p>
+
+<p>
+  This can be quickly worked around by <strong>editing the broken report and
+  re-instating the configured column/measure in the field bucket</strong>. No
+  big deal here, except for the pain of having to update loads of reports.
+</p>
+
+<p>
+  The real thing comes with the roll-out of the visual and the way it is done.
+  The new version of a visual is not available globally at once, it is published
+  progressively across regions, products and probably other criterias. It means
+  that not all users are updated silmutaneously.
+</p>
+
+<p>
+  Some users may be viewing a report configured with the old version with the
+  latest version of the visual available in their Power BI application, while
+  some others will be viewing updated reports with an obsolete version of the
+  visual, the new one not beaing available for them.
+</p>
+
+
+<p>
+  Our recommendation is to <strong>update your reports with the latest version of the
+  <em>Mass Filter</em> as soon as it is available to an author</strong>. The
+  users will then be gradually updated as the visual becomes available.
+</p>
+
+<p>
+  We are aware that this is not an ideal situation, especially if you have a lot
+  of reports targeting a large audience worldwide, but we can't figure out many
+  other workarounds.<br />
+  We sincerely appologize for the inconvenience. Feel free to
+  <a href="/contact">contact</a> us if further assistance is needed.
+</p>
+{% else %}
+<p>
+  We recently released a major version of the <em>Mass Filter</em> introducing a
+  breaking change.<br />
+  If you are using this visual in your reports, you might be affected by an
+  inconsistent visual state issue.
+</p>
+<p>
+  Please read more about this in details on the <a href="/mass-filter">Mass
+  Filter page</a>.
+</p>
+{% endif %}
+</div>
