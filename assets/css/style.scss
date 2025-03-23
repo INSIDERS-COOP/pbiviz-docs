@@ -39,12 +39,29 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to top, #1f5552, #093f3c);
 }
 
+#header_wrap .inner {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#header_wrap .inner h2 {
+  padding-bottom: unset;
+}
+
 #main_content_wrap {
   flex-grow: 1;
 }
 
+#main_content {
+  padding-top: 20px;
+}
+
 #footer_wrap {
   background: #093f3c;
+}
+
+#footer_wrap .inner {
+  padding: 10px 10px;
 }
 
 nav {
